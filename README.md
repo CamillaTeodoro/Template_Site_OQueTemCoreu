@@ -1,5 +1,7 @@
-# Código do Projeto
+# Template do Site O Que Tem Coreu
 
-Mantenha neste diretório todo o código fonte do projeto. 
+O site está sendo desenvolvido para a Disciplina de Trabalho Interdisciplinar.
 
-Se necessário, descreva neste arquivo aspectos relevantes da estrutura de diretórios criada para organização do código.
+O template foi desenvolvido por mim, usando HTML, CSS e Bootstrap.
+
+No final do semestre será incrementado o Javascript e o local storage.
