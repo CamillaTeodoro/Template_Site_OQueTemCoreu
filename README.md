@@ -1,5 +1,5 @@
-# Template_Site_OQueTemCoreu
+# Código do Projeto
 
-Template que será utilizado para desenvolvimento do site O Que tem? Coreu.
+Mantenha neste diretório todo o código fonte do projeto. 
 
-Será feito utilizando CSS e HTML e futuramente acrescentado o Javascript.
+Se necessário, descreva neste arquivo aspectos relevantes da estrutura de diretórios criada para organização do código.
