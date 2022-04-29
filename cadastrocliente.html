@@ -21,7 +21,11 @@
     <div class="container">
       <div class="row">
         <div class="col d-flex justify-content-start">
-          <a href="cadastro.html" title="Início" onclick="">
+          <a
+            href="cadastro.html"
+            title="Cadastro"
+            onclick="event.preventDefault(); history.back()"
+          >
             <i
               class="bi bi-arrow-left-square-fill m-3"
               style="font-size: 2rem; color: #000c76"
@@ -42,45 +46,41 @@
       <div class="row mt-3">
         <div class="col">
           <div class="mb-3">
-            <label for="formGroupExampleInput" class="form-label"
-              >Example label</label
-            >
+            <label for="formGroupExampleInput" class="form-label">Email</label>
             <input
-              type="text"
+              type="email"
               class="form-control"
               id="formGroupExampleInput"
-              placeholder="Example input placeholder"
+              placeholder="Entre com seu email"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="formGroupExampleInput2" class="form-label">Senha</label>
+            <input
+              type="password"
+              class="form-control"
+              id="formGroupExampleInput2"
+              placeholder="Digite a senha"
             />
           </div>
           <div class="mb-3">
             <label for="formGroupExampleInput2" class="form-label"
-              >Another label</label
+              >Confirme sua senha</label
             >
             <input
-              type="text"
+              type="password"
               class="form-control"
               id="formGroupExampleInput2"
-              placeholder="Another input placeholder"
-            />
-          </div>
-          <div class="mb-3">
-            <label for="formGroupExampleInput2" class="form-label"
-              >Another label</label
-            >
-            <input
-              type="text"
-              class="form-control"
-              id="formGroupExampleInput2"
-              placeholder="Another input placeholder"
+              placeholder="Digite a senha"
             />
           </div>
         </div>
       </div>
 
       <div class="row mt-4">
-        <div class="col-12">
+        <div class="col-12 d-flex justify-content-center align-items-center">
           <a
-            class="btn btn-primary bk-color-blue d-flex justify-content-evenly align-items-center"
+            class="btn btn-primary bk-color-blue d-flex justify-content-center align-items-center"
             href="#"
             role="button"
             >ENVIAR</a
